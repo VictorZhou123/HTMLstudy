@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form标签</title>
+</head>
+<body>
+    <form action="http://www.baidu.com">
+
+        <p>
+            <label for="">帐号</label>
+            <input type="text" name="帐号" id="usn" value="victor">
+        </p>
+        <p>
+            <label for="">密码</label>
+            <input type="password" name="密码" id="pwd" placeholder="请输入密码">
+        </p>
+        <p>
+            男：<input type="radio" id="man" name="sex" checked="checked">
+            女：<input type="radio" id="woman" name="sex">
+        </p>
+        <p>
+            <h6>你的爱好：</h6>
+            篮球<input type="checkbox">
+            足球<input type="checkbox">
+            乒乓球<input type="checkbox">
+            电竞<input type="checkbox" checked="checked">
+            游泳<input type="checkbox">
+        </p>
+        <p>
+            <h6>你学习的计算机工具：</h6>
+            <select name="class" id="">
+                <option value="">HTML</option>
+                <option value="">CSS</option>
+                <option value="">JS</option>
+                <option value="">Vue</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="提交">
+        </p>
+
+    </form>
+</body>
+</html>
