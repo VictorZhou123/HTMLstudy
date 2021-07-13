@@ -1,3 +1,19 @@
-h4{
-    color: blue;
+/* 没有访问的a的状态 */
+a:link{
+    color: red;
+}
+
+/* 访问过后的a的状态 */
+a:visited{
+    color: orange;
+}
+
+/* 鼠标悬浮时的a的状态 */
+a:hover{
+    color: black;
+}
+
+/* 鼠标按住时的a的状态 */
+a:active{
+    color: purple;
 }
